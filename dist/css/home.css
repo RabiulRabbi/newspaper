@@ -1,0 +1,86 @@
+.navbar {
+  /* text-align: center; */
+}
+.navbar-toggler {
+  border: none;
+}
+.nav-item {
+  padding: 1px 10px;
+}
+.navbar-top {
+  background: rgb(150, 148, 148);
+}
+.navbar-top .nav-link {
+  color: #fff;
+  font-weight: 600;
+}
+.navbar-bottom {
+  background: rgb(233, 231, 231);
+}
+.navbar-bottom .nav-link {
+  color: black;
+  font-weight: 600;
+}
+
+.nav-item :hover {
+  color: blue;
+}
+
+/* Latest-news-section */
+.latest-news-section {
+  padding: 10px 10px;
+}
+.latest-news {
+  border-bottom: 1px solid rgb(109, 107, 107);
+}
+.latest-news-section .left .rowpart1 .part2 {
+  padding: 10px;
+  border-left: 1px solid rgb(211, 209, 209);
+}
+.latest-news-section .left .rowpart1 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(211, 209, 209);
+}
+.latest-news-section .left .rowpart2 .part2,
+.part3 {
+  padding: 10px;
+  border-left: 1px solid rgb(211, 209, 209);
+}
+.latest-news-section .left .rowpart2 {
+  padding: 10px;
+  border-bottom: 1px solid rgb(211, 209, 209);
+}
+.latest-news-section .left .rowpart3 .part1,
+.part2,
+.part3 {
+  padding: 10px;
+  border-bottom: 1px solid rgb(211, 209, 209);
+}
+.latest-news-section .left .rowpart3 .part4,
+.part5,
+.part6 {
+  padding: 10px;
+}
+.latest-news-section .left .rowpart3 .part2,
+.part3,
+.part5,
+.part6 {
+  border-left: 1px solid rgb(211, 209, 209);
+}
+.latest-news-section .left .rowpart3 {
+  padding: 10px;
+}
+.latest-news-section .right {
+  padding: 10px;
+  border-left: 1px solid rgb(211, 209, 209);
+}
+.latest-news-section .right .part1,
+.part2 {
+  /* padding: 10px; */
+  border-bottom: 1px solid rgb(211, 209, 209);
+}
+@media only screen and (max-width: 990px) {
+  .navbar-bottom {
+    display: none;
+  }
+}
